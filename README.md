@@ -1,34 +1,34 @@
-# FPGA并行编程
+# FPGA並行編程
 
-> -- 以HLS实现信号处理为例
+> -- 以HLS實現信號處理為例
 
-国内鲜有介绍HLS的书，我们希望通过翻译`Parallel Programming for FPGAs`这本书，让更多的人来了解HLS和FPGA开发。
+國內鮮有介紹HLS的書，我們希望通過翻譯`Parallel Programming for FPGAs`這本書，讓更多的人來了解HLS和FPGA開發。
 
-## 本书电子版pdf
+## 本書電子版pdf
 
-> 欢迎关注公众号`PYNQ中文社区`获取最新版电子pdf
-> 回复 `pp4fpgas` 即可获得
+> 歡迎關注公眾號`PYNQ中文社區`獲取最新版電子pdf
+> 回覆 `pp4fpgas` 即可獲得
 
-![PYNQ开源社区](images/qrcode2.jpg)
+![PYNQ開源社區](images/qrcode2.jpg)
 
-## 本书中文翻译和更新可在以下网址浏览
+## 本書中文翻譯和更新可在以下網址瀏覽
 
-- [推荐] Gitbook Page: <https://xupsh.gitbook.io/pp4fpgas-cn/>
+- [推薦] Gitbook Page: <https://xupsh.gitbook.io/pp4fpgas-cn/>
 
-- [备用] Github Page: <https://xupsh.github.io/pp4fpgas-cn/>
+- [備用] Github Page: <https://xupsh.github.io/pp4fpgas-cn/>
 
-## 本文案例可以在以下网址下载
+## 本文案例可以在以下網址下載
 
-- HLS工程源代码: <https://github.com/xupsh/pp4fpgas-cn-hls>
+- HLS工程源代碼: <https://github.com/xupsh/pp4fpgas-cn-hls>
 
-## 问题反馈
+## 問題反饋
 
-- 如有问题请在这里👇指正
+- 如有問題請在這裏👇指正
 
   - 提出ISSUE: <https://github.com/xupsh/pp4fpgas-cn/issues/new>
-  - 在Gitbook Page:<https://xupsh.gitbook.io/pp4fpgas-cn>电子书阅读页面下方留言
+  - 在Gitbook Page:<https://xupsh.gitbook.io/pp4fpgas-cn>電子書閲讀頁面下方留言
 
-- 此书翻译稿目前为初稿，欢迎各位提宝贵意见、反馈意见，授课支持，实验平台试用请联系[joshual@xilinx.com](mailto:joshual@xilinx.com)或[xup_china@xilinx.com](mailto:xup_china@xilinx.com)
+- 此書翻譯稿目前為初稿，歡迎各位提寶貴意見、反饋意見，授課支持，實驗平台試用請聯繫[joshual@xilinx.com](mailto:joshual@xilinx.com)或[xup_china@xilinx.com](mailto:xup_china@xilinx.com)
 
 ## LICENSE
 
@@ -38,29 +38,29 @@ The newest version of this book can be found at <http://hlsbook.ucsd.edu>. The a
 
 ## CONTRIBUTERS
 
-## 2021年 第二版校对
-@ 郑溪桐
+## 2021年 第二版校對
+@ 鄭溪桐
 @ 胡云皓
-@ 张启星
+@ 張啟星
 
-## 2018年 第一版译者
+## 2018年 第一版譯者
 
-> 统筹 [胡成龙@sonnyhcl](https://github.com/sonnyhcl)
+> 統籌 [胡成龍@sonnyhcl](https://github.com/sonnyhcl)
 
-章节                                     | 译者
+章節                                     | 譯者
 -------------------------------------- | ----------------------------------------------------
-README                                 | [胡成龙@sonnyhcl](https://github.com/sonnyhcl)
-00 Preface                             | [李彦晔@Zaoldyeckk](https://github.com/Zaoldyeckk)
-01 Introduction                        | [李彦晔@Zaoldyeckk](https://github.com/Zaoldyeckk)
+README                                 | [胡成龍@sonnyhcl](https://github.com/sonnyhcl)
+00 Preface                             | [李彥曄@Zaoldyeckk](https://github.com/Zaoldyeckk)
+01 Introduction                        | [李彥曄@Zaoldyeckk](https://github.com/Zaoldyeckk)
 02 FIR Filters                         | [曹越@onlypinocchio](https://github.com/onlypinocchio)
 03 CORDIC                              | [曹越@onlypinocchio](https://github.com/onlypinocchio)
-04 Discrete Fourier Transform          | [陈雯@vickyiii](https://github.com/vickyiii)
-05 Fast Fourier Transform              | [陈雯@vickyiii](https://github.com/vickyiii)
-06 Sparse Matrix Vector Multiplication | [吴彦北@wuyanbei24](https://www.github.com/wuyanbei24)
-07 Matrix Multiplication               | [吴彦北@wuyanbei24](https://github.com/wuyanbei24)
+04 Discrete Fourier Transform          | [陳雯@vickyiii](https://github.com/vickyiii)
+05 Fast Fourier Transform              | [陳雯@vickyiii](https://github.com/vickyiii)
+06 Sparse Matrix Vector Multiplication | [吳彥北@wuyanbei24](https://www.github.com/wuyanbei24)
+07 Matrix Multiplication               | [吳彥北@wuyanbei24](https://github.com/wuyanbei24)
 08 Prefix Sum and Histogram            | [胡博@jianxin251](https://github.com/jianxin251)
 09 Video System                        | [胡博@jianxin251](https://github.com/jianxin251)
 10 Sorting Algorithms                  | [王芝斌@WangZhibin](https://github.com/WangZhibin)
-11 Huffman Encoding                    | [杨勇@rowen800](https://github.com/rowen800)
-词汇表                                    | [李彦晔@Zaoldyeckk](https://github.com/Zaoldyeckk)
-参考文献                                   | [李彦晔@Zaoldyeckk](https://github.com/Zaoldyeckk)
+11 Huffman Encoding                    | [楊勇@rowen800](https://github.com/rowen800)
+詞彙表                                    | [李彥曄@Zaoldyeckk](https://github.com/Zaoldyeckk)
+參考文獻                                   | [李彥曄@Zaoldyeckk](https://github.com/Zaoldyeckk)
